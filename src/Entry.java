@@ -5,7 +5,7 @@ public class Entry {
     public static void main(String[] args) {
         Entry entry = new Entry();
 //        entry.lengthOfLongestSubstring();
-        entry.fourSum();
+        entry.threeSum();
     }
 
     private void lengthOfLongestSubstring() {
@@ -22,5 +22,11 @@ public class Entry {
         int target = -11;
         List<List<Integer>> result = FourSum.solution_1(input, target);
         System.out.println(result);
+    }
+
+    private void threeSum() {
+        int[] input = new int[]{0,0,0,0,0};
+        List<List<Integer>> result = ThreeSum.solution_1(input);
+        System.out.println("three sum result is " + result);
     }
 }
