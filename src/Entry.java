@@ -63,8 +63,8 @@ public class Entry {
     }
 
     private void romanToInteger() {
-        String input = "IV";
-        int result = RomanToInteger.solution(input);
+        String input = "MCMXCIV";
+        int result = RomanToInteger.solution_2(input);
         System.out.println("RomanToInteger result is " + result);
     }
 
