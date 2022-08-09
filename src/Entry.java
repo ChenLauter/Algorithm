@@ -1,13 +1,8 @@
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Entry {
-
-    public static void main(String[] args) {
-        Entry entry = new Entry();
-//        entry.lengthOfLongestSubstring();
-        entry.addTowNumbers();
-    }
 
     private void lengthOfLongestSubstring() {
         String input = "apple";
@@ -41,5 +36,40 @@ public class Entry {
             result = result.next;
         }
         System.out.println(list);
+    }
+
+    private void pow() {
+        double result = Pow.solution_3(2,-2);
+        System.out.println("Pow result is " + result);
+    }
+
+    private void coinChange2() {
+        int[] input = new int[]{1,2,5};
+        int amount = 15;
+        int result = CoinChange2.solution(amount, input);
+        System.out.println("coin changes2 result is " + result);
+    }
+
+    private void arrangingCoins() {
+        int result = ArrangingCoins.solution_3(Integer.MAX_VALUE);
+        System.out.println("arranging coin result is " + result);
+    }
+
+    private void coinChange() {
+        int[] input = new int[]{1,2,5};
+        int amount = 15;
+        int result = CoinChange.solution(input, amount);
+        System.out.println("coin changes result is " + result);
+    }
+
+    private void romanToInteger() {
+        String input = "IV";
+        int result = RomanToInteger.solution(input);
+        System.out.println("RomanToInteger result is " + result);
+    }
+
+    public static void main(String[] args) {
+        Entry entry = new Entry();
+        entry.romanToInteger();
     }
 }
