@@ -1,10 +1,8 @@
 /**
  <a href="https://leetcode.cn/problems/powx-n"></a>
-
- Implement pow(x, n), which calculates x raised to the power n
  */
 
-public class Pow {
+public class P50_Pow {
 
     /***
      *

@@ -3,7 +3,7 @@ import java.util.Arrays;
 /***
  <a href="https://leetcode.cn/problems/coin-change"></a>
  */
-public class CoinChange {
+public class P322_CoinChange {
     public static int solution(int[] coins, int amount) {
         int[] all = new int[amount + 1];
         Arrays.fill(all, amount + 1);

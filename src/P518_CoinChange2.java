@@ -1,7 +1,7 @@
 /***
  <a href="https://leetcode.cn/problems/coin-change-2"></a>
  */
-public class CoinChange2 {
+public class P518_CoinChange2 {
     // 题目：返回所有组合
 
 

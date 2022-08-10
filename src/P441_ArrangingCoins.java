@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/arranging-coins/"></a>
  */
-public class ArrangingCoins {
+public class P441_ArrangingCoins {
 
 
     // 暴力解

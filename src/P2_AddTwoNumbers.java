@@ -4,7 +4,7 @@ import java.util.List;
 /***
  <a href="https://leetcode.cn/problems/add-two-numbers"></a>
  */
-public class AddTwoNumbers {
+public class P2_AddTwoNumbers {
 
     public static ListNode solution(ListNode l1, ListNode l2) {
         List<Integer> list1 = new ArrayList<>();
